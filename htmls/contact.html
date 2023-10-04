@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Night City - The Free City</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <!--- TOP NAV -->
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active"><img src="../images/nightcity.png" alt="Girl in a jacket" width="40%" height="20%"></a>
+        <a href="projects.html">Projects</a>
+        <a href="games.html">Games</a>
+        <a href="videos.html">Videos</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      
+
+    <!-- CONTENT-->  
+	<div class="center">
+		<p class="night-city-title">Contact us ✉️</p>	
+	</div>
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Poland">Poland</option>
+            <option value="Germany">Germany</option>
+            <option value="Holand">Holand</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+    <!--FOOTER -->
+	<div class="footer">
+		<h3 class="travilabs-title"><b class="labs-com">travilabs.com</b></h3>
+		<div id="socialsFooter">
+			<a id="fb_footer" href="https://www.facebook.com/cryptoinapill" class="fa fa-facebook"></a>
+			<a id="tt_footer" href="https://www.facebook.com/cryptoinapill" class="fa fa-twitter"></a>
+			<a id="yt_footer" href="https://www.facebook.com/cryptoinapill" class="fa fa-youtube"></a>
+			<a id="ig_footer" href="https://www.facebook.com/cryptoinapill" class="fa fa-instagram"></a>
+			<a id="ptr_footer" href="https://www.facebook.com/cryptoinapill" class="fa fa-pinterest"></a>
+			<a id="lin_footer" href="https://www.facebook.com/cryptoinapill" class="fa fa-linkedin"></a>
+		</div>
+	</div>
+    
+  <!-- JAVA SCRIPT -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+</body>
+</html>
